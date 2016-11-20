@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>简历</title>
+    <style>
+        *{margin:0;padding:0;list-style: none;font-family: 微软雅黑;font-weight: normal;}
+        body{background:#F9F9F9;}
+        .cg{color:#47a899 !important;}
+        a{color:#737373;text-decoration:none; }
+        a:hover{color: #47a899}
+        .main{margin:0 auto;width: 100%;}
+        .header{width: 100%;height:183px;background:#47a899;position: relative}
+        .header-img{width: 192px;height:192px;border-radius: 96px;border:5px solid #fff;background:url("./images/header.jpg") no-repeat center center;position: absolute;left: 50%;margin-left: -96px;top:76px;background-size: cover;}
+        .content{width: 1100px;margin:100px auto;}
+        .name{font-size:45px;font-weight: 700;height: 70px;line-height:70px;text-align: center}
+        .target{font-size:16px;height:26px;line-height:26px;text-align: center}
+        .info ul{width:100%;height:37px;line-height:37px;margin-top: 5px;}
+        .info ul li{float:left;width:255px;;color: #47a899;position: relative;padding-left: 20px;}
+        .info ul li i{display: block;width: 17px;height:31px;background: url("./images/sprite.png") no-repeat;background-size: 75px;position: absolute;left: 0;top:8px;}
+        .info ul li .address{background-position: -18px 0;}
+        .info ul li .tel{background-position: -36px 0;}
+        .info ul li .email{background-position: -54px 0;}
+        .public{padding-top:50px;text-align: left}
+        .public-title{height:2px;position: relative;width: 100%;background:#47a899; }
+        .public-title h2{background: #f9f9f9;width:220px;height:50px;position: absolute;left:50%;
+            margin-left:-100px;top: -25px;}
+        .public-title span{display: block;width: 200px;height:50px;background:#47a899;
+            border-bottom-left-radius: 25px;border-top-left-radius: 25px;border-bottom-right-radius: 25px;
+            border-top-right-radius: 25px;color: #fff;text-align: center;line-height:50px;margin:0 auto;
+        }
+        .info-list{padding-top: 50px;}
+        .info-list dt{height:30px;}
+        .info-list dd{padding:10px 0;line-height:150%;color:#737373}
+        .info-list span{color:#737373;width: 33.33%;display:block;float: left}
+        .info-list .fName{text-align:center;}
+        .info-list .post{text-align: right;}
+
+    </style>
+</head>
+<body>
+<div class="main">
+    <!--头部b-->
+    <div class="header">
+        <div class="header-img"></div>
+    </div>
+    <!--头部e-->
+   <div class="content">
+       <!--个人信息b-->
+       <div class="info">
+           <h1 class="name">吴永春</h1>
+           <h2 class="target">求职目标：网站前端</h2>
+           <ul>
+               <li><i class="age"></i>年龄：21岁</li>
+               <li><i class="address"></i>现居地：苏州</li>
+               <li><i class="tel"></i>电话：13585838832</li>
+               <li><i class="email"></i>邮箱：1572887203@qq.com</li>
+           </ul>
+       </div>
+       <!--个人信息e-->
+
+       <!--技能b-->
+       <div class="public">
+            <!--标题b-->
+           <div class="public-title">
+               <h2>
+                   <span>IT技能</span>
+               </h2>
+           </div>
+            <!--标题e-->
+           <dl class="info-list">
+               <dt>
+
+               </dt>
+               <dd>1、 熟练使用html/css,能精准还原设计图效果，熟悉 W3C标准，对标签语义化、代码重用性、代码模块化有一定了解。</dd>
+               <dd>2、 熟练W3C标准及规范， 熟悉HTML5/CSS3/DOM/JSON规范; 熟练运用DIV+CSS、 JQuery等工具。</dd>
+               <dd>3、 掌握 HTML5 和 CSS3, 熟悉bootstrap进行响应式页面的开发。</dd>
+               <dd>4、 熟练使用fullPage.js，video.js等常用的js插件。</dd>
+               <dd>5、 会使用自动化构建工具gulp，以及git</dd>
+               <dd>6、 了解http协议，能使用 Ajax 、json 完成前后端数据交互，并完成页面渲染工作。</dd>
+               <dd>7、 了解node.js，能阅读PHP代码。</dd>
+               <dd>8、 了解网站优化方案，有提升用户体验的意识。</dd>
+           </dl>
+
+
+       </div>
+       <!--技能e-->
+       <!--工作经历b-->
+       <div class="public">
+           <!--标题b-->
+           <div class="public-title">
+               <h2>
+                   <span>工作经验</span>
+               </h2>
+           </div>
+           <!--标题e-->
+           <dl class="info-list">
+               <dt>
+                   <span class="time">2015.07 - 2016.09</span>
+                   <span class="fName"><a href="www.vemss.com" target=_blank>杭州纤美企业管理有限公司</a></span>
+                   <span class="post">网页设计与制作</span>
+               </dt>
+               <dd class="cg">项目简介：</dd>
+               <dd>杭州纤美企业管理有限公司是一家专门从事女子瘦身养生事业的专业 连锁机构。公司平台主要包括“信息展示”、“门店信息模块”、“案例模块”。</dd>
+               <dd class="cg">主要职责：</dd>
+               <dd>1、根据需求方意见在现有公司的框架的基础上进行二次开发，添加修改对应的网站模块 </dd>
+               <dd>2、利用html、css、js等技术修改现有框架，并保证页面的兼容性以及功能的完整性</dd>
+               <dd>3、编写公司各个主页面中的js特效</dd>
+               <dd>4、持续的优化前端体验和页面响应速度，并保证兼容性和执行效率</dd>
+               <dd class="cg">工作成果：</dd>
+               <dd>1、对前端行业有了初步认识，了解了前端行业所需掌握的技能，对html，css，js的应用有了一定的了解</dd>
+               <dd>2、积累了基于第三方框架进行二次开发的经验</dd>
+               <dd class="cg">使用到的技术：</dd>
+               <dd>1、html、css、jQuery</dd>
+           </dl>
+       </div>
+       <!--工作经历e-->
+
+       <!--自我评价b-->
+       <div class="public">
+           <!--标题b-->
+           <div class="public-title">
+               <h2>
+                   <span>自我评价</span>
+               </h2>
+           </div>
+           <!--标题e-->
+           <dl class="info-list">
+               <dd>1、基本功扎实：熟练掌握原生JavaScript，能熟练操作DOM,BOM，熟练掌握jQuery。</dd>
+               <dd>2、沟通能力好：逻辑思维能力强，语言表达能力出众。</dd>
+               <dd>3、学习能力强：对学习新技术一直保持热情。</dd>
+           </dl>
+       </div>
+       <!--自我评价e-->
+
+       <!--教育经历b-->
+       <div class="public">
+           <!--标题b-->
+           <div class="public-title">
+               <h2>
+                   <span>教育经历</span>
+               </h2>
+           </div>
+           <!--标题e-->
+           <dl class="info-list">
+               <dt>
+                   <span class="time">2013.09 - 2016.6</span>
+                   <span class="fName">安徽文达信息工程学院</span>
+                   <span class="post">汽车工程系</span>
+               </dt>
+           </dl>
+       </div>
+       <!--教育经历e-->
+
+   </div>
+</div>
+
+</body>
+</html>
